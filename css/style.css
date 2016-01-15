@@ -1,12 +1,12 @@
 body {	
 	background-color:white;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 header {
     font-size: 22px;
 	margin-left: 0px;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin-top: 80px;
 	letter-spacing: 1px;
 	font-weight: 100;
@@ -97,7 +97,7 @@ img {
 
 article {
 	margin-top: 50px;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 17px;
 	color: black;
 	z-index: 1;
@@ -195,7 +195,7 @@ section.active {}
 
 
 blockquote {
-	font-family: 'Note Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 19px;
 	margin: 0px auto;
 	margin-bottom: 30px;
@@ -360,7 +360,7 @@ ondertitel{
 
 article {
 	margin-top: 25px;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 }
 
@@ -371,7 +371,7 @@ li {
 
 
 h1, h2, h3, h4,h5, h6 {
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	color: black;
 	margin: 0px auto;
 	width: 80%;
@@ -405,7 +405,7 @@ h3{
 }
 
 blockquote {
-	font-family: 'Note Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	margin: 0px auto;
 	margin-bottom: 30px;
@@ -471,7 +471,7 @@ body {
 
 header {
     font-size: 10px;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin-left: 0px;
 }
 
@@ -583,7 +583,7 @@ h3{
 }
 
 blockquote {
-	font-family: 'Note Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
 	margin: 0px auto;
 	margin-bottom: 30px;
