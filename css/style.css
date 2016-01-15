@@ -88,7 +88,7 @@ img {
     display:table-column;
     height:auto;
     margin-right:auto;
-    margin-left:400px;
+    margin-left:300px;
     margin-bottom: 30px;
     margin-top: 20px;
     position: inherit;
@@ -180,6 +180,7 @@ section {
   padding-top: 1px;
   background: #e8e5e5;
   margin-bottom: -20px;
+  margin-left: 300px;
 }
 section:nth-child(even) {
   background: #1fc9f3;
