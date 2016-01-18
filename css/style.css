@@ -1,12 +1,12 @@
 body {	
 	background-color:white;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Slabo 27px', serif;
 }
 
 header {
     font-size: 22px;
 	margin-left: 0px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Slabo 27px', serif;
 	margin-top: 80px;
 	letter-spacing: 1px;
 	font-weight: 100;
@@ -20,7 +20,7 @@ nav{
 	left: 10px;
 	text-align: left;
 	text-transform: uppercase;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Slabo 27px', serif;
 	letter-spacing: 0.04em;
 	top: 15px;
 	z-index: 999;
@@ -29,7 +29,7 @@ nav{
 }
 
 footer{
-	font-family: Helvetica, sans-serif;
+	font-family: 'Slabo 27px', serif;
 	position: fixed;
 	bottom: 15px;
 	text-align: left;
@@ -46,7 +46,7 @@ footer{
 }
 
 titel{
-	font-family: Helvetica, sans-serif;
+	font-family: 'Slabo 27px', serif;
 	font-weight: bold;
 	display: inherit;
 	text-align: center;
@@ -65,7 +65,7 @@ titel{
 }
 
 ondertitel{
-	font-family: Helvetica, sans-serif;
+	font-family: 'Slabo 27px', serif;
 	font-weight: bold;
 	display: block;
 	color: white;
@@ -97,7 +97,7 @@ img {
 
 article {
 	margin-top: 50px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Slabo 27px', serif;
 	font-size: 17px;
 	color: black;
 	z-index: 1;
@@ -113,7 +113,7 @@ li {
 
 h1, h2, h3, h4, h5, h6 {
     margin: 10px 180px;
-	font-family: Arial, sans-serif;
+	font-family: 'Slabo 27px', serif;
 	color: black;
 	margin: 0px auto;
 	width: 50%;
@@ -196,7 +196,7 @@ section.active {}
 
 
 blockquote {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Slabo 27px', serif;
 	font-size: 19px;
 	margin: 0px auto;
 	margin-bottom: 30px;
@@ -282,7 +282,7 @@ body {
 
 header {
     font-size: 10px;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Slabo 27px', serif;
 	margin-left: 0px;
 }
 
@@ -319,7 +319,7 @@ img {
 }
 
 titel{
-	font-family: Helvetica, sans-serif;
+	font-family: 'Slabo 27px', serif;
 	font-weight: bold;
 	display: inherit;
 	text-align: center;
@@ -338,7 +338,7 @@ titel{
 }
 
 ondertitel{
-	font-family: Helvetica, sans-serif;
+	font-family: 'Slabo 27px', serif;
 	font-weight: bold;
 	display: block;
 	color: white;
@@ -361,7 +361,7 @@ ondertitel{
 
 article {
 	margin-top: 25px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Slabo 27px', serif;
 	font-size: 18px;
 }
 
@@ -372,7 +372,7 @@ li {
 
 
 h1, h2, h3, h4,h5, h6 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Slabo 27px', serif;
 	color: black;
 	margin: 0px auto;
 	width: 80%;
@@ -406,7 +406,7 @@ h3{
 }
 
 blockquote {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Slabo 27px', serif;
 	font-size: 16px;
 	margin: 0px auto;
 	margin-bottom: 30px;
@@ -472,7 +472,7 @@ body {
 
 header {
     font-size: 10px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Slabo 27px', serif;
 	margin-left: 0px;
 }
 
@@ -483,7 +483,7 @@ nav{
 	margin-top:0px;
 	font-size: 15px;
 	color: black;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Slabo 27px', serif;
 }
 
 footer{
@@ -501,7 +501,7 @@ img {
 }
 
 titel{
-	font-family: Helvetica, sans-serif;
+	font-family: 'Slabo 27px', serif;
 	display: inherit;
 	text-align: center;
 	color: white;
@@ -520,7 +520,7 @@ titel{
 }
 
 ondertitel{
-	font-family: Helvetica, sans-serif;
+	font-family: 'Slabo 27px', serif;
 	font-weight: 200;
 	display: block;
 	color: white;
@@ -541,7 +541,7 @@ ondertitel{
 
 article {
 	margin-top: 25px;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Slabo 27px', serif;
 	font-size: 15px;
 }
 
@@ -553,7 +553,7 @@ li {
 
 h1, h2, h3, h4,h5, h6 {
     margin: 20px 55px;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Slabo 27px', serif;
 	color: black;
 }
 
@@ -584,7 +584,7 @@ h3{
 }
 
 blockquote {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Slabo 27px', serif;
 	font-size: 12px;
 	margin: 0px auto;
 	margin-bottom: 30px;
