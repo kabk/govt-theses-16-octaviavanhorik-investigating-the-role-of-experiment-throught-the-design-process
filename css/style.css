@@ -112,7 +112,7 @@ li {
 
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 10px 180px;
+    margin: 10px 10px;
 	font-family: 'Slabo 27px', serif;
 	color: black;
 	margin: 0px auto;
@@ -555,17 +555,14 @@ h1{
 	font-size: 25px;
 	color: black;
 	width: 70%;
-	margin-left: 20px;
+
 	
 }
 
 h2{
-	margin-top: 0px;
 	font-size: 20px;
 	color: black;
 	width: 80%;
-	margin-bottom: -20px;
-	margin-top: 10px;
 	
 }
 
