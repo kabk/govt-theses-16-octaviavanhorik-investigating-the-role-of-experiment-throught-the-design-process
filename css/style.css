@@ -134,6 +134,7 @@ h1{
 
 h2{
 	margin-top: 28px;
+	margin: 0px auto;
 	letter-spacing: 0.05em;
 	text-indent: -35px;
 }
@@ -141,18 +142,21 @@ h2{
 
 h3{
 	letter-spacing: 0.05em;
+	margin: 0px auto;
 	text-indent: -35px;
 }
 
 h4{
-	letter-spacing: 0.04em;
+	letter-spacing: 0.05em;
+	margin: 0px auto;
 	font-size: 19px;
 	color: black;
 	
 }
 
 h6{
-	letter-spacing: 0.04em;
+	letter-spacing: 0.05em;
+	margin: 0px auto;
 	font-size: 40px;
 	color: black;
 	transform:rotateZ(-15deg);
@@ -385,7 +389,6 @@ h1, h2, h3, h4,h5, h6 {
 h1{
 	font-size: 25px;
 	color: black;
-	width: 50%;
 	margin-left: 10px;
 	
 }
@@ -394,7 +397,6 @@ h2{
 	margin-top: 0px;
 	font-size: 20px;
 	color: black;
-	width: 50%;
 	margin-left: 10px;
 	
 }
@@ -402,7 +404,6 @@ h2{
 h3{
 	font-size: 15px;
 	color: black;
-	width: 50%;
 	margin-left: 10px;
 }
 
@@ -561,23 +562,18 @@ h1, h2, h3, h4,h5, h6 {
 
 h1{
 	font-size: 25px;
-	color: black;
-	width: 70%;
-
-	
+	color: black;	
 }
 
 h2{
 	font-size: 20px;
 	color: black;
-	width: 80%;
 	
 }
 
 h3{
 	font-size: 15px;
 	color: black;
-	width: 80%;
 	
 }
 
