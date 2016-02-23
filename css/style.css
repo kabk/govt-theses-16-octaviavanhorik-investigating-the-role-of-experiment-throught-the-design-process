@@ -571,7 +571,7 @@ a:active {
 
 p {
 	font-size: 12px;
-    margin-top: 0;
+  margin-top: 0;
 	line-height: 1.8;
 	margin-bottom: 25px;
 	margin-left: 30px;
@@ -591,28 +591,4 @@ p {
 } */
 
 @media only print {
-	body{
-		background-color: none;
-	}
-    /**
-     * When printing, the header is useful but it doesnâ€™t need
-     * to be so big
-     */
-    header h1, h2{
-        font-size: 18pt;
-        font-weight: normal;
-    } 
-	article {
-		margin-left: 200px;
-		margin-right: -300px;
-		font-size: 12pt;
-	}
-    /* And the navigation we donâ€™t need */
-    nav {
-        display: none;
-    }
-	footer{
-		font-size: 8pt;
-		line-height: 1.2;
-	}
 }

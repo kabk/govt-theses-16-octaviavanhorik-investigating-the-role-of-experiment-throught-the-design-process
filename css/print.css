@@ -14,6 +14,36 @@
         display: none;
     }
 }
+
+body{
+  background-color: none;
+}
+/**
+ * When printing, the header is useful but it doesnâ€™t need
+ * to be so big
+ */
+header h1, h2{
+    font-size: 18pt;
+    font-weight: normal;
+} 
+article {
+  font-size: 12pt;
+}
+/* And the navigation we donâ€™t need */
+nav {
+    display: none;
+}
+footer{
+  font-size: 8pt;
+  line-height: 1.2;
+}
+p {
+  width: 90%;
+}
+h1, h2, h3, h4, h5, h6 {
+   width: 90%; 
+}
+
 /* Page-breaking */
 .page-break-before { page-break-before: always }
 .page-break-after { page-break-after: always }
