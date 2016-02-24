@@ -13,6 +13,24 @@ nav {
   display: none;
 }
 
+#thesis_wrapper {
+    max-width: 90%;
+    border-right: none;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+/* Always start a new page when we encounter a ‘part’ box */
+.part {
+    page-break-before: always;
+}
+
+/* Make the sidenotes visible */
+#thesis_wrapper .sidenote {
+    opacity: 1;
+}
 
 .page-break-before {
     page-break-before: always
@@ -26,7 +44,4 @@ p {
     page-break-inside: avoid;
 }
 
-h1 {
-    page-break-before: always;
-}
 
