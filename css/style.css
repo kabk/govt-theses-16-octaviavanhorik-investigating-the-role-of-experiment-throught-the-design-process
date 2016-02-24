@@ -507,6 +507,15 @@ body#page1{
   line-height:25px;
 }
 
+/*--------------SCREEN SPECIFIC--------------------*/
+
+@media screen {
+    .print-only {
+        display: none;
+    }
+}
+
+
 /*--------------------- PRINT ---------------------*/
 
 

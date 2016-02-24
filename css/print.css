@@ -1,28 +1,28 @@
-@media print {
-    nav {
-        display: none;
-    }
-}
-@media screen {
-    .print-only {
-        display: none;
-    }
+/* Because we link in this stylesheet with media=print from index.html,
+   these styles only apply when printing */
+
+.screen-only {
+    display: none;
 }
 
-@media print {
-    .screen-only {
-        display: none;
-    }
+nav {
+    display: none;
 }
 
 .navbar {
   display: none;
 }
 
+
+.page-break-before {
+    page-break-before: always
 }
-.page-break-before { page-break-before: always }
-.page-break-after { page-break-after: always }
-{
+
+.page-break-after {
+    page-break-after: always
+}
+
+p {
     page-break-inside: avoid;
 }
 
