@@ -1,7 +1,5 @@
 
 
-/*--------------------- MAIN ---------------------*/
-
 .preload * {
   -webkit-transition: none !important;
   -moz-transition: none !important;
@@ -21,7 +19,7 @@
 }
 
 .sidebar a{
-  font-family:'PT+Sans' sans-serif;
+  font-family:'PT Sans', sans-serif;
   color:black;
   text-decoration:none;
   margin-top:35px;
@@ -32,8 +30,6 @@
 .sidebar span{
   opacity:0;
   padding-left:10px;
-  -webkit-transition:all 0.3s ease;
-  transition:all 0.3s ease;
 }
 
 .sidebar a:hover{
@@ -43,50 +39,7 @@
   color:black;
   display:inline;
   opacity:1;
-  -webkit-transition:all 0.3s ease;
-  transition:all 0.3s ease;
 }
-
-
-
-progress {
-  /* Positioning */
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index:999;
-
-  /* Dimensions */
-  width: 100%;
-  height: 10px;
-
-  /* Reset the appearance */
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-
-  /* Get rid of the default border in Firefox/Opera. */
-  border: none;
-
-  /* Progress bar container for Firefox/IE10+ */
-  background-color: transparent;
-
-  /* Progress bar value for IE10+ */
-  color: black;
-}
-progress::-webkit-progress-bar {
-  background-color: transparent;
-}
-
-progress::-webkit-progress-value {
-  background-color: black;
-}
-
-progress::-moz-progress-bar {
-  background-color: black;
-}
-
-
 
 body {
   background-color:white;
@@ -105,7 +58,7 @@ body {
 
 
 footer {
-  font-family:'PT+Sans' sans-serif;
+  font-family:'PT Sans', sans-serif;
   font-size:12px;
   float:left;
   color:black;
@@ -124,27 +77,27 @@ footer a:hover{
   color:black;
 }
 
+.part{
+  opacity:1;
+  padding-top:10px;
+  padding-bottom:10px;
+  width:100% !important;
+  background-color:white;
+}
+
 h1 {
-  font-family: 'PT+Sans' sans-serif;
+  font-family: 'PT Sans', sans-serif;
   text-decoration:none;
   font-weight:bolder;
   font-size:80px;
+  letter-spacing: 0.05em;
   text-align:center;
   color:black;
   margin-bottom:-5px;
 }
 
-.part{
-  opacity:0;
-  padding-top:60px;
-  padding-bottom:60px;
-  width:100% !important;
-  background-color:white;
-}
-
-
 h2 {
-  font-family:'PT+Sans' sans-serif;
+  font-family:'PT Sans', sans-serif;
   font-weight:bolder;
   font-size:30px;
   text-align:left;
@@ -153,7 +106,7 @@ h2 {
 }
 
 h3 {
-  font-family:'PT+Sans' sans-serif;
+  font-family:'PT Sans', sans-serif;
   font-weight:bolder;
   font-size:25px;
   text-align:left;
@@ -162,7 +115,7 @@ h3 {
 }
 
 h4 {
-  font-family:'PT+Sans' sans-serif;
+  font-family:'PT Sans', sans-serif;
   font-weight:bolder;
   font-size:20px;
   text-align:left;
@@ -174,24 +127,37 @@ h5 {
   font-family: 'Droid Serif', serif;
   text-decoration:none;
   font-weight:bolder;
-  font-size:60px;
+  font-size:70px;
   text-align:left;
   color:black;
-  margin-top:-5px;
+  margin-top:-195px;
 }
 
-/*--------------------- THESIS WRAPPER ---------------------*/
+h6 {
+  font-family: 'PT Sans', sans-serif;
+  font-size:80px;
+  text-align:left;
+  color:black;
+  margin-top:50px;
+}
+
+h7 {
+  font-family:'PT Sans', sans-serif;
+  font-size:14px;
+  text-align:left;
+  margin-bottom: 10px;
+}
 
 #thesis_wrapper{
-  max-width:70%;
+  max-width:75%;
   float:center;
-  padding-right:35px;
-  border-right:1.5px solid black;
+  padding-right:80px;
+  border-right:0px solid black;
 
 }
 
 #thesis_wrapper p{
-  font-family: 'PT+Sans' sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight:normal;
   font-size:20px;
   line-height:30px;
@@ -209,24 +175,21 @@ h5 {
 
 
 #thesis_wrapper sup:hover{
-  color:gray;
-    cursor:e-resize;
+  color:black;
+  cursor: help;
+  font-size: 16px;
 }
 
 #thesis_wrapper sup:hover + .sidenote{
   margin-right:100px;
   color:black;
   opacity:1;
-  -webkit-transition:all 0.5s ease;
-  transition:all 0.5s ease;
 }
 
 #thesis_wrapper sup a{
   font-size:12px;
-   line-height:20px;
+  line-height:20px;
 }
-/*--------------------- THUMB / IMG ---------------------*/
-
 
 
 .thumb{
@@ -238,60 +201,40 @@ h5 {
 .thumb img{
 width:100%;
 height:auto;
-filter:gray;
--webkit-filter:grayscale(100%);
--webkit-transition:all 0.2s ease;
-transition:all 0.2s ease;
 }
 
 .thumb img:hover{
   opacity:1;
   filter:none;
-  -webkit-filter:grayscale(0%);
-  -webkit-transition:all 0.1s ease;
-  transition:all 0.1s ease;
 }
 
 .thumb p{
-  margin-top:-2px;
-  opacity:0;
-  font-size:14px !important;
-  -webkit-transition:all 0.1s ease;
-  transition:all 0.1s ease;
+  margin-top:-1.5px;
+  opacity:1;
+  font-size:12px !important;
 }
 
 .thumb:hover p{
   opacity:1;
-  -webkit-transition:all 0.1s ease;
-  transition:all 0.1s ease;
 }
-
-/*--------------------- BLOCKQUOTE ---------------------*/
-
 
 .blockquote{
   padding-top:35px;
   padding-bottom:35px;
   font-family: 'Droid Serif', serif;
-  font-weight: italic;
+  font-weight: bolder;
   text-align:left justify;
-  margin-left:-60px;
-  font-size:35px;
-  line-height:50px;
+  margin-left:70px;
+  font-size:45px;
+  line-height:58px;
 }
 .blockquote sup{
   font-family: 'Droid Serif', serif;
   vertical-align: top;
   position:relative;
-  font-size: 20px;
-  top:-0.5em;
+  font-size: 30px;
+  top:-0.4em;
 }
-
-
-
-
-
-/*--------------------- THESIS WRAPPER (SIDENOTES) ---------------------*/
 
 
 #thesis_wrapper .sidenote{
@@ -306,17 +249,15 @@ transition:all 0.2s ease;
     border-top:5px solid white;
     font-size:14px;
     line-height:15px;
-    font-family:'PT+Sans' sans-serif;
+    font-family:'PT Sans', sans-serif;
     opacity:0;
-    -webkit-transition:all 1s ease;
-    transition:all 1s ease;
 }
 
 
 .sidenote a{
   font-size:12px;
   line-height:13px;
-  font-family:'PT+Sans' sans-serif;
+  font-family:'PT Sans', sans-serif;
 }
 
 
@@ -334,14 +275,6 @@ transition:all 0.2s ease;
     }
 }
 
-
-
-
-
-
-/*--------------------- TABLE OF CONTENTS ---------------------*/
-
-
 #table_of_content{
 
 }
@@ -355,45 +288,35 @@ transition:all 0.2s ease;
 }
 
 .contents a{
-  font-family:'PT+Sans' sans-serif;
+  font-family:'PT Sans', sans-serif;
   text-transform:uppercase;
   font-size:30px;
   line-height:32px;
   color:black;
-  -webkit-transition:all 0.3s ease;
-  transition:all 0.3s ease;
 }
 
 .contents a:hover{
   cursor:pointer;
   opacity:0.3;
-  -webkit-transition:all 0.3s ease;
-  transition:all 0.3s ease;
 }
 
 
 
-/*--------------------- CHAPTERS ---------------------*/
-
 .chapter a{
-  font-family: 'PT+Sans' sans-serif;
+  font-family: 'PT Sans', sans-serif;
   text-transform:uppercase;
   position:relative;
-  font-size:30px !important;
-  line-height:31px;
+  font-size:25px !important;
+  line-height:10px;
   color:#1e1e1e;
 }
 .chapter{
-padding-top:40px;
-padding-bottom:40px;
+padding-top:10px;
+padding-bottom:20px;
 margin-left:-60px;
 
 }
 
-
-
-
-/*--------------------- SPLASH PAGE ---------------------*/
 
 body#page1{
   background-color:#f8f8f8;
@@ -410,7 +333,7 @@ body#page1{
 }
 .readon a{
   font-size:20px;
-  font-family: 'PT+Sans' sans-serif;
+  font-family: 'PT Sans', sans-serif;
   text-transform:uppercase;
   text-decoration:none;
   color:black;
@@ -426,7 +349,7 @@ body#page1{
 #splash p{
 
   width:70%;
-  font-family:'PT+Sans' sans-serif;
+  font-family:'PT Sans', sans-serif;
   font-size:20px;
   line-height:27px;
   text-align:left;
@@ -435,7 +358,7 @@ body#page1{
 
 
 .splash-title {
-  font-family: 'PT+Sans' sans-serif;
+  font-family: 'PT Sans', sans-serif;
   color:black !important;
   font-size:24px !important;
   text-transform:none;
@@ -443,12 +366,12 @@ body#page1{
   letter-spacing:-0.01em;
 }
 
-/*--------------------- SOURCES WRAPPER ---------------------*/
+
 
 .backarrow a{
   position:fixed;
   text-decoration:none;
-  font-family:'PT+Sans' sans-serif;
+  font-family:'PT Sans' sans-serif;
   color:white;
   font-size:100px;
   margin-top:22%;
@@ -478,13 +401,13 @@ body#page1{
 }
 
 #sources_wrapper {
-  font-family:'PT+Sans' sans-serif;
+  font-family:'PT Sans', sans-serif;
   font-size:14px;
 }
 
 #sources_wrapper a{
   text-decoration:none;
-  color: blue;
+  color: gray;
   -webkit-transition:all 0.3s ease;
   transition:all 0.3s ease;
 }
@@ -495,8 +418,6 @@ body#page1{
   -webkit-transition:all 0.3s ease;
   transition:all 0.3s ease;
 }
-
-/*--------------------- SOURCES END PAPER ---------------------*/
 
 .endsource{
   padding-top:15px;
@@ -515,9 +436,129 @@ body#page1{
     }
 }
 
+@media screen and (min-width: 300px) and (max-width: 800px){
 
-/*--------------------- PRINT ---------------------*/
+.sidenote {
+ float:none;
+ position: absolute;
+right: 0;
+color:black;
+width: 100px;
+margin: 0;
+}
 
+.chapter{
+  padding-top: 0px;
+}
+
+.part{
+  opacity:0;
+  padding-top:0px;}
+
+#thesis_wrapper p{
+  
+  font-size:10px;
+  line-height: 12px;
+
+
+}
+
+h1 {
+  font-size:18px;
+  line-height: 20px;
+}
+
+h2 {
+  font-size:12px;
+  line-height: 15px;
+}
+
+h3 {
+  font-size:10px;
+  line-height: 12px;
+}
+
+h4 {
+  font-size:10px;
+  line-height: 12px;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 20px;
+  margin-top:-45px;
+}
+
+h6 {
+  font-size: 20px;
+  line-height: 20px;
+  margin-top:25px;
+}
+
+.chapter{
+font-size:20px;  
+padding-top:-30px;
+padding-bottom:-20px;
+margin-left:-60px;
+
+}
+
+.thumb p{
+  margin-top:-1.5px;
+  opacity:1;
+  font-size:6px !important;
+}
+
+#navbar{
+display:none;
+}
+
+.blockquote{
+font-size: 15px; 
+line-height: 18px;
+margin-left: 20px;
+}
+
+}     
+
+/*--------------------- if you want to have progress bar ---------------------*/
+
+progress {
+  /* Positioning */
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index:999;
+
+  /* Dimensions */
+  width: 100%;
+  height:0px;
+
+  /* Reset the appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* Get rid of the default border in Firefox/Opera. */
+  border: none;
+
+  /* Progress bar container for Firefox/IE10+ */
+  background-color: transparent;
+
+  /* Progress bar value for IE10+ */
+  color: black;
+}
+progress::-webkit-progress-bar {
+  background-color: transparent;
+}
+
+progress::-webkit-progress-value {
+  background-color: black;
+}
+
+progress::-moz-progress-bar {
+  background-color: black;
+}
 
 
 
