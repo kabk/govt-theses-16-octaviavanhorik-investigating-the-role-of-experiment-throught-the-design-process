@@ -1,5 +1,18 @@
 /* Because we link in this stylesheet with media=print from index.html,
    these styles only apply when printing */
+.page :left {
+  margin-left: 2cm;
+  margin-right: 2cm;
+  margin-top: 3cm;
+  margin-bottom: 3cm;
+}
+
+.page :right {
+  margin-left: 2cm;
+  margin-right: 2cm;
+  margin-top: 3cm;
+  margin-bottom: 3cm;
+}
 
 .screen-only {
     display: none;
@@ -9,39 +22,78 @@ nav {
     display: none;
 }
 
-.navbar {
-  display: none;
+#navbar{
+display:none;
 }
 
 #thesis_wrapper {
-    max-width: 90%;
+    max-width: 70%;
     border-right: none;
 }
 
+body {
+  text-rendering: optimizeLegibility;
+  max-width:70%;
+  margin-left:20%;
+  margin-right:10%;
+}
+
 h1 {
-    font-size: 60px;
-}
-
-/* Always start a new page when we encounter a ‘part’ box */
-.part {
-    page-break-before: always;
-}
-
-/* Make the sidenotes visible */
-#thesis_wrapper .sidenote {
+    font-size: 40px;
     opacity: 1;
 }
 
-.page-break-before {
-    page-break-before: always
+h3 {
+    font-size: 20px;
+    padding-left: 0px;
 }
 
-.page-break-after {
-    page-break-after: always
+h5 {
+    font-size: 50px;
+    line-height: 55px;
 }
+
+.part {
+    page-break-before: always;
+    position: center;
+    margin-top: 50px;
+}
+
+.sidenote {
+    float:none;
+    position: absolute;
+    right: 0;
+    color:black;
+    width: 100px;
+    margin: 0;
+}
+
+.blockquote{
+    font-size: 25px;
+    line-height:40px;
+    font-weight: bolder;
+    page-break-inside: avoid;
+}
+
+#thesis_wrapper .sidenote {
+    opacity: 1;
+    max-width: 4cm;
+    margin-left: 145px;
+    margin-top: -10px;
+    font-size: 9px;
+    line-height: 12px;
+    color: black;
+    display:inline-block;
+
+}
+
+.thumb p{
+  opacity:1;
+}  
 
 p {
-    page-break-inside: avoid;
+    font-size: 11pt;
+    line-height: 13pt;
 }
 
 
