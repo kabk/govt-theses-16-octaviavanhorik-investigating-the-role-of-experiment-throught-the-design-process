@@ -439,8 +439,8 @@ body#page1{
 @media screen and (min-width: 300px) and (max-width: 800px){
 
 .sidenote {
- float:none;
- position: absolute;
+float:none;
+position: absolute;
 right: 0;
 color:black;
 width: 100px;
@@ -464,7 +464,7 @@ margin: 0;
 }
 
 h1 {
-  font-size:18px;
+  font-size:14px;
   line-height: 20px;
 }
 
@@ -514,9 +514,12 @@ display:none;
 }
 
 .blockquote{
-font-size: 15px; 
+font-size: 15px;
+font-family: 'Droid Serif', serif;
 line-height: 18px;
 margin-left: 20px;
+margin-top: -20px
+margin-bottom: -20px;
 }
 
 }     
